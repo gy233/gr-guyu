@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1guyu_1_1print__data__f__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::guyu::print_data_f_impl</compoundname>
+    <basecompoundref refid="classgr_1_1guyu_1_1print__data__f" prot="public" virt="non-virtual">gr::guyu::print_data_f</basecompoundref>
+    <includes refid="print__data__f__impl_8h" local="no">print_data_f_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1guyu_1_1print__data__f__impl_1a7f03a4b8565967433fd86abf49f4e57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::guyu::print_data_f_impl::print_data_f_impl</definition>
+        <argsstring>()</argsstring>
+        <name>print_data_f_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/lib/print_data_f_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1print__data__f__impl_1af0a5a5ae1e12a5f5702e75bb0c9d2b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::guyu::print_data_f_impl::~print_data_f_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~print_data_f_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/lib/print_data_f_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1print__data__f__impl_1ac5e70e97e081d4e9612580a829271169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::guyu::print_data_f_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/lib/print_data_f_impl.h" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>gr::guyu::print_data_f_impl</label>
+        <link refid="classgr_1_1guyu_1_1print__data__f__impl"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="17">
+        <label>gr::guyu::print_data_f</label>
+        <link refid="classgr_1_1guyu_1_1print__data__f"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>gr::guyu::print_data_f_impl</label>
+        <link refid="classgr_1_1guyu_1_1print__data__f__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="20">
+        <label>gr::guyu::print_data_f</label>
+        <link refid="classgr_1_1guyu_1_1print__data__f"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/guyu/workarea/gr-guyu/lib/print_data_f_impl.h" line="30" column="1" bodyfile="/home/guyu/workarea/gr-guyu/lib/print_data_f_impl.h" bodystart="29" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1guyu_1_1print__data__f_1a51df8af48d4b4ac5b99b614feaf1f9e5" prot="public" virt="non-virtual"><scope>gr::guyu::print_data_f_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1guyu_1_1print__data__f__impl_1a7f03a4b8565967433fd86abf49f4e57d" prot="public" virt="non-virtual"><scope>gr::guyu::print_data_f_impl</scope><name>print_data_f_impl</name></member>
+      <member refid="classgr_1_1guyu_1_1print__data__f_1ae55c08b9db2c65ff420504e256af8e22" prot="public" virt="non-virtual"><scope>gr::guyu::print_data_f_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1guyu_1_1print__data__f__impl_1ac5e70e97e081d4e9612580a829271169" prot="public" virt="non-virtual"><scope>gr::guyu::print_data_f_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1guyu_1_1print__data__f__impl_1af0a5a5ae1e12a5f5702e75bb0c9d2b0a" prot="public" virt="non-virtual"><scope>gr::guyu::print_data_f_impl</scope><name>~print_data_f_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_01582c1e42e158f0e93e2ee1a47bbe56" kind="dir">
+    <compoundname>/home/guyu/workarea/gr-guyu/include/guyu</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="myCMA22_8h">myCMA22.h</innerfile>
+    <innerfile refid="print__data__f_8h">print_data_f.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/guyu/workarea/gr-guyu/include/guyu/"/>
+  </compounddef>
+</doxygen>

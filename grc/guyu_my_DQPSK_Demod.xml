@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<block>
+  <name>my_DQPSK_Demod</name>
+  <key>guyu_my_DQPSK_Demod</key>
+  <category>[guyu]</category>
+  <import>import guyu</import>
+  <make>guyu.my_DQPSK_Demod()</make>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

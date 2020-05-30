@@ -1,0 +1,4 @@
+test_guyu 2 0.0194395
+qa_print_data_f 2 1.65089
+qa_myCMA22 2 0.118084
+---

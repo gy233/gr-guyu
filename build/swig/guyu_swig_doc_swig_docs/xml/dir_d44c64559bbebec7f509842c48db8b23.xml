@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/guyu/workarea/gr-guyu/include</compoundname>
+    <innerdir refid="dir_01582c1e42e158f0e93e2ee1a47bbe56">/home/guyu/workarea/gr-guyu/include/guyu</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/guyu/workarea/gr-guyu/include/"/>
+  </compounddef>
+</doxygen>

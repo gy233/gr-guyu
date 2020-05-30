@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<block>
+  <name>my_file_sink</name>
+  <key>guyu_my_file_sink</key>
+  <category>[guyu]</category>
+  <import>import guyu</import>
+  <make>guyu.my_file_sink($sample_rate, $duration, $type.size*$vlen, $file, $append)</make>
+  <callback>set_unbuffered($unbuffered)</callback>
+  <callback>open($file)</callback>
+
+  
+  <param>
+    <name>Sample Rate</name>
+    <key>sample_rate</key>
+    <value>100</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Duration</name>
+    <key>duration</key>
+    <value>10</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>File</name>
+    <key>file</key>
+    <value></value>
+    <type>file_save</type>
+  </param>
+
+  <param>
+    <name>Input Type</name>
+    <key>type</key>
+    <type>enum</type>
+    <option>
+      <name>Complex</name>
+      <key>complex</key>
+      <opt>size:gr.sizeof_gr_complex</opt>
+    </option>
+    <option>
+      <name>Float</name>
+      <key>float</key>
+      <opt>size:gr.sizeof_float</opt>
+    </option>
+    <option>
+      <name>Int</name>
+      <key>int</key>
+      <opt>size:gr.sizeof_int</opt>
+    </option>
+    <option>
+      <name>Short</name>
+      <key>short</key>
+      <opt>size:gr.sizeof_short</opt>
+    </option>
+    <option>
+      <name>Byte</name>
+      <key>byte</key>
+      <opt>size:gr.sizeof_char</opt>
+    </option>
+  </param>
+
+	<param>
+		<name>Vec Length</name>
+		<key>vlen</key>
+		<value>1</value>
+		<type>int</type>
+	</param>
+
+	<param>
+		<name>Unbuffered</name>
+		<key>unbuffered</key>
+		<value>False</value>
+		<type>bool</type>
+		<option>
+				<name>Off</name>
+				<key>False</key>
+		</option>
+		<option>
+				<name>On</name>
+				<key>True</key>
+		</option>
+	</param>
+
+	<param>
+		<name>Append file</name>
+		<key>append</key>
+		<value>False</value>
+		<type>bool</type>
+		<option>
+			<name>Append</name>
+			<key>True</key>
+		</option>
+		<option>
+			<name>Overwrite</name>
+			<key>False</key>
+		</option>
+	</param>
+
+	<check>$vlen &gt; 0</check>
+	<sink>
+		<name>in</name>
+		<type>$type</type>
+		<vlen>$vlen</vlen>
+	</sink>
+</block>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="myCMA22__impl_8h" kind="file" language="C++">
+    <compoundname>myCMA22_impl.h</compoundname>
+    <includes refid="myCMA22_8h" local="no">guyu/myCMA22.h</includes>
+    <includes local="no">gnuradio/filter/fir_filter.h</includes>
+    <includes local="no">gnuradio/math.h</includes>
+    <includes local="no">stdexcept</includes>
+    <incdepgraph>
+      <node id="22">
+        <label>gnuradio/filter/fir_filter.h</label>
+      </node>
+      <node id="23">
+        <label>gnuradio/math.h</label>
+      </node>
+      <node id="21">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="24">
+        <label>stdexcept</label>
+      </node>
+      <node id="20">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="17">
+        <label>myCMA22_impl.h</label>
+        <link refid="myCMA22_impl.h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>guyu/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>guyu/myCMA22.h</label>
+        <link refid="myCMA22_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1guyu_1_1myCMA22__impl" prot="public">gr::guyu::myCMA22_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1guyu">gr::guyu</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/guyu/workarea/gr-guyu/lib/myCMA22_impl.h"/>
+  </compounddef>
+</doxygen>

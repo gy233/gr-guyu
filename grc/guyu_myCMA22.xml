@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<block>
+  <name>myCMA22</name>
+  <key>guyu_myCMA22</key>
+  <category>[guyu]</category>
+  <import>import guyu</import>
+  <make>guyu.myCMA22($num_taps, $modulus, $mu, $sps, $iter, $print_flag)</make>
+  <callback>set_gain($mu)</callback>
+  <callback>set_modulus($modulus)</callback>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Num.Taps</name>
+    <key>num_taps</key>
+    <value>10</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Modulus</name>
+    <key>modulus</key>
+    <value>1</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Gain</name>
+    <key>mu</key>
+    <value>1e-4</value>
+    <type>real</type>
+  </param>
+
+  <param>
+    <name>Samples per Symbol</name>
+    <key>sps</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Times of Iteration</name>
+    <key>iter</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Debug</name>
+    <key>print_flag</key>
+    <value>False</value>
+    <type>bool</type>
+    <option>
+      <name>off</name>
+      <key>False</key>
+    </option>
+    <option>
+      <name>on</name>
+      <key>True</key>
+    </option>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in1</name>
+    <type>complex</type>
+  </sink>
+
+  <sink>
+    <name>in2</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out1</name>
+    <type>complex</type>
+  </source>
+
+  <source>
+    <name>out2</name>
+    <type>complex</type>
+  </source>
+
+</block>

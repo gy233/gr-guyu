@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1guyu" kind="namespace" language="C++">
+    <compoundname>gr::guyu</compoundname>
+    <innerclass refid="classgr_1_1guyu_1_1myCMA22" prot="public">gr::guyu::myCMA22</innerclass>
+    <innerclass refid="classgr_1_1guyu_1_1print__data__f" prot="public">gr::guyu::print_data_f</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

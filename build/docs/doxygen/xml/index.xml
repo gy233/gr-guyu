@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1guyu_1_1myCMA22" kind="class"><name>gr::guyu::myCMA22</name>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a68203c4ce1cfa0816792522349a8cd97" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a19fe51177571a9798174ddba9abcbf20" kind="function"><name>error</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a52c6a2f563a1b945995ca9dd322816ef" kind="function"><name>update_tap</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1ad2b1415f0b7ec7d413017335e2e9b671" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1af449e4e52848351e0116fc00a9ab080d" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1aeff0c3a63a39a5f989e99901c1501c64" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a882cb9f49f84a47bae3679899a419e58" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a3e143be61cee56b2ddbce282eed8e2d7" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a3db1b97f128db101feeb82cc3760bf8a" kind="function"><name>modulus</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a27f2b6c28632a0749a2ee6404a579323" kind="function"><name>set_modulus</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1afa410553db7ceed7c6703332f4ce8ea2" kind="function"><name>iteration</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1a269eb2561c0057884401b9b1cc11ecf5" kind="function"><name>set_iteration</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22_1ab895265c77a52a436a3a34cdadaf7be0" kind="function"><name>print_error</name></member>
+  </compound>
+  <compound refid="classgr_1_1guyu_1_1myCMA22__impl" kind="class"><name>gr::guyu::myCMA22_impl</name>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a6cf062bdad7b9714af9ce0c408cc4d2b" kind="variable"><name>d_new_taps</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a09d9b7519f1364b3d5de634ff325ff15" kind="variable"><name>d_new_taps1</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a0365ae16f02186424bc6cd9f3ec2be7d" kind="variable"><name>d_updated</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a09883dc42549822d3b40b3c5728aa660" kind="variable"><name>d_error</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1ac403f493680e2d757cd859ea2dae9ad9" kind="variable"><name>d_modulus</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1adc44cd09a7fdc398a7b9e6145912cd96" kind="variable"><name>d_mu</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a3e6b09e08c5f805407c24b0ba333e113" kind="variable"><name>d_iter</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a8d8eb405a350fb4786fa5b1947fb7cfd" kind="variable"><name>d_print_flag</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a101adc4b66555a54cc1c62710e649834" kind="variable"><name>d_filter_1</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a0a7d7bc23a2e585ecfcba511821c6c28" kind="variable"><name>d_filter_2</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1abf91adf2dc53d1604031df990b50846a" kind="function"><name>error</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a070af7699969ea271b1c635e15adaf79" kind="function"><name>update_tap</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1acb286cf87f018b945cac77af0c4bbbc3" kind="function"><name>myCMA22_impl</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1afb2829400348cefe573ad92a050b95ea" kind="function"><name>~myCMA22_impl</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a494a050732bb2ba08c4f97492e11add8" kind="function"><name>set_taps</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a9cf82c395228cadc28cbb9b2c843dd0c" kind="function"><name>taps</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1afc37a4e107d1970c18e7cd5449e7426c" kind="function"><name>gain</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1aca9d11e4f487af04fa06f8e434939e28" kind="function"><name>set_gain</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a4e0a7a09292a90460e5f3cf4e57eb2cf" kind="function"><name>modulus</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a92455c6ac2a81e049b35c147be0bf1c2" kind="function"><name>set_modulus</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a9011b4e1148f68086e5809ebd377ffa5" kind="function"><name>iteration</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a25be418f80adc6711fda6ee911724597" kind="function"><name>set_iteration</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a5975eda772dea9afe9ddda7400830f78" kind="function"><name>print_error</name></member>
+    <member refid="classgr_1_1guyu_1_1myCMA22__impl_1a504cd076a267330bef2549835dfe162d" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1guyu_1_1print__data__f" kind="class"><name>gr::guyu::print_data_f</name>
+    <member refid="classgr_1_1guyu_1_1print__data__f_1ae55c08b9db2c65ff420504e256af8e22" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1guyu_1_1print__data__f_1a51df8af48d4b4ac5b99b614feaf1f9e5" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1guyu_1_1print__data__f__impl" kind="class"><name>gr::guyu::print_data_f_impl</name>
+    <member refid="classgr_1_1guyu_1_1print__data__f__impl_1a7f03a4b8565967433fd86abf49f4e57d" kind="function"><name>print_data_f_impl</name></member>
+    <member refid="classgr_1_1guyu_1_1print__data__f__impl_1af0a5a5ae1e12a5f5702e75bb0c9d2b0a" kind="function"><name>~print_data_f_impl</name></member>
+    <member refid="classgr_1_1guyu_1_1print__data__f__impl_1ac5e70e97e081d4e9612580a829271169" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1guyu" kind="namespace"><name>gr::guyu</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a60d418028e0b3b957e2f4899d76484a1" kind="define"><name>GUYU_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="myCMA22_8h" kind="file"><name>myCMA22.h</name>
+  </compound>
+  <compound refid="myCMA22__impl_8h" kind="file"><name>myCMA22_impl.h</name>
+  </compound>
+  <compound refid="print__data__f_8h" kind="file"><name>print_data_f.h</name>
+  </compound>
+  <compound refid="print__data__f__impl_8h" kind="file"><name>print_data_f_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_01582c1e42e158f0e93e2ee1a47bbe56" kind="dir"><name>guyu</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1guyu_1_1myCMA22" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::guyu::myCMA22</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_decimator</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1guyu_1_1myCMA22__impl" prot="public" virt="non-virtual">gr::guyu::myCMA22_impl</derivedcompoundref>
+    <includes refid="myCMA22_8h" local="no">myCMA22.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1guyu_1_1myCMA22_1a68203c4ce1cfa0816792522349a8cd97" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1guyu_1_1myCMA22" kindref="compound">myCMA22</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;myCMA22&gt; gr::guyu::myCMA22::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="43" column="1" bodyfile="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a19fe51177571a9798174ddba9abcbf20" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>gr_complex</type>
+        <definition>virtual gr_complex gr::guyu::myCMA22::error</definition>
+        <argsstring>(const gr_complex &amp;out)=0</argsstring>
+        <name>error</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1abf91adf2dc53d1604031df990b50846a">error</reimplementedby>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a52c6a2f563a1b945995ca9dd322816ef" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::guyu::myCMA22::update_tap</definition>
+        <argsstring>(gr_complex &amp;tap, const gr_complex &amp;in)=0</argsstring>
+        <name>update_tap</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a070af7699969ea271b1c635e15adaf79">update_tap</reimplementedby>
+        <param>
+          <type>gr_complex &amp;</type>
+          <declname>tap</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1ad2b1415f0b7ec7d413017335e2e9b671" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1guyu_1_1myCMA22_1a68203c4ce1cfa0816792522349a8cd97" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::guyu::myCMA22::make</definition>
+        <argsstring>(int num_taps, float modulus, float mu, int sps, int iter, bool print_flag)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>num_taps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>modulus</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iter</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>print_flag</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1guyu_1_1myCMA22" kindref="compound">guyu::myCMA22</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1guyu_1_1myCMA22" kindref="compound">guyu::myCMA22</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1guyu_1_1myCMA22_1ad2b1415f0b7ec7d413017335e2e9b671" kindref="member">guyu::myCMA22::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1af449e4e52848351e0116fc00a9ab080d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::guyu::myCMA22::set_taps</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;taps)=0</argsstring>
+        <name>set_taps</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a494a050732bb2ba08c4f97492e11add8">set_taps</reimplementedby>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>taps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1aeff0c3a63a39a5f989e99901c1501c64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>virtual std::vector&lt;gr_complex&gt; gr::guyu::myCMA22::taps</definition>
+        <argsstring>() const =0</argsstring>
+        <name>taps</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a9cf82c395228cadc28cbb9b2c843dd0c">taps</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a882cb9f49f84a47bae3679899a419e58" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::guyu::myCMA22::gain</definition>
+        <argsstring>() const =0</argsstring>
+        <name>gain</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1afc37a4e107d1970c18e7cd5449e7426c">gain</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a3e143be61cee56b2ddbce282eed8e2d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::guyu::myCMA22::set_gain</definition>
+        <argsstring>(float mu)=0</argsstring>
+        <name>set_gain</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1aca9d11e4f487af04fa06f8e434939e28">set_gain</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>mu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a3db1b97f128db101feeb82cc3760bf8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::guyu::myCMA22::modulus</definition>
+        <argsstring>() const =0</argsstring>
+        <name>modulus</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a4e0a7a09292a90460e5f3cf4e57eb2cf">modulus</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a27f2b6c28632a0749a2ee6404a579323" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::guyu::myCMA22::set_modulus</definition>
+        <argsstring>(float mod)=0</argsstring>
+        <name>set_modulus</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a92455c6ac2a81e049b35c147be0bf1c2">set_modulus</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>mod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1afa410553db7ceed7c6703332f4ce8ea2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>float</type>
+        <definition>virtual float gr::guyu::myCMA22::iteration</definition>
+        <argsstring>() const =0</argsstring>
+        <name>iteration</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a9011b4e1148f68086e5809ebd377ffa5">iteration</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1a269eb2561c0057884401b9b1cc11ecf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::guyu::myCMA22::set_iteration</definition>
+        <argsstring>(float iter)=0</argsstring>
+        <name>set_iteration</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a25be418f80adc6711fda6ee911724597">set_iteration</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1guyu_1_1myCMA22_1ab895265c77a52a436a3a34cdadaf7be0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>gr_complex</type>
+        <definition>virtual gr_complex gr::guyu::myCMA22::print_error</definition>
+        <argsstring>() const =0</argsstring>
+        <name>print_error</name>
+        <reimplementedby refid="classgr_1_1guyu_1_1myCMA22__impl_1a5975eda772dea9afe9ddda7400830f78">print_error</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="63" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="0">
+        <label>gr::guyu::myCMA22</label>
+        <link refid="classgr_1_1guyu_1_1myCMA22"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::guyu::myCMA22_impl</label>
+        <link refid="classgr_1_1guyu_1_1myCMA22__impl"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="3">
+        <label>gr::guyu::myCMA22</label>
+        <link refid="classgr_1_1guyu_1_1myCMA22"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" line="37" column="1" bodyfile="/home/guyu/workarea/gr-guyu/include/guyu/myCMA22.h" bodystart="36" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a19fe51177571a9798174ddba9abcbf20" prot="protected" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>error</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a882cb9f49f84a47bae3679899a419e58" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>gain</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1afa410553db7ceed7c6703332f4ce8ea2" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>iteration</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1ad2b1415f0b7ec7d413017335e2e9b671" prot="public" virt="non-virtual"><scope>gr::guyu::myCMA22</scope><name>make</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a3db1b97f128db101feeb82cc3760bf8a" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>modulus</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1ab895265c77a52a436a3a34cdadaf7be0" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>print_error</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a3e143be61cee56b2ddbce282eed8e2d7" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>set_gain</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a269eb2561c0057884401b9b1cc11ecf5" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>set_iteration</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a27f2b6c28632a0749a2ee6404a579323" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>set_modulus</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1af449e4e52848351e0116fc00a9ab080d" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>set_taps</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a68203c4ce1cfa0816792522349a8cd97" prot="public" virt="non-virtual"><scope>gr::guyu::myCMA22</scope><name>sptr</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1aeff0c3a63a39a5f989e99901c1501c64" prot="public" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>taps</name></member>
+      <member refid="classgr_1_1guyu_1_1myCMA22_1a52c6a2f563a1b945995ca9dd322816ef" prot="protected" virt="pure-virtual"><scope>gr::guyu::myCMA22</scope><name>update_tap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
